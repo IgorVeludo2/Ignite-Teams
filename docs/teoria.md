@@ -1,0 +1,2 @@
+# Design System & Style Guide
+O style guide é importante para definir as regras e o Design System para colocar essas regras em prática criando componentes padronizados e reutilizáveis na construção do App.
