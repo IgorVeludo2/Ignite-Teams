@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FlatList } from 'react-native';
 
+import { Button } from '@components/Button';
 import { Highlight } from '@components/Highlight';
 import { Header } from '@components/Header';
 import { GroupCard } from '@components/GroupCard';
@@ -32,7 +33,9 @@ export function Groups() {
           <EmptyList message="Que tal cadastrar a primeira turma?"/>
         )}
       />
-
+      <Button 
+        title="Criar uma nova turma"
+      />
     </Container>
   );
 }
