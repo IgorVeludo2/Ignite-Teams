@@ -4,12 +4,14 @@ import { Container, ButtonText, ButtonTypeStyleProps } from './styles';
 type Props = TouchableOpacityProps & {
   title: string;
   type?: ButtonTypeStyleProps;
+  // handleClick?: () => void;
 }
 
-export function Button({ title, type = 'PRIMARY', ...rest }: Props) {
+export function Button({ title, type = 'PRIMARY', /*handleClick**/  ...rest }: Props) {
   return(
     <Container 
-      type={type} 
+      type={type}
+      //onPress={() => handleClick}
       {...rest}
     >
       <ButtonText>
